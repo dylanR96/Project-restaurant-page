@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  height: 100svh;
+  font-family: bree serif;
+}
+
+.header {
+  background-color: antiquewhite;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10rem;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.header__nav-btn {
+  width: 10rem;
+}
+
+.header__logo {
+  margin-left: 2rem;
+}
+
+.header__btn-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header__btn {
+  margin-right: 2rem;
+  height: 3rem;
+  width: 10rem;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main__top-wrapper {
+  display: flex;
+  gap: 25rem;
+  max-width: 1280px;
+  margin: 15rem auto 0;
+  background-color: gray;
+}
+
+.main__left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40rem;
+  margin: 2rem;
+}
+
+.main__left-side-header {
+  font-size: 5rem;
+  color: white;
+}
+
+.main__left-side-paragraph {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.main__menu-btn {
+  width: 10rem;
+  height: 3rem;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5%;
+}
+
+.main__reservation-btn {
+  color: white;
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  border-radius: 5%;
+  margin: 2rem;
+  background-color: black;
+}
+
+.main__right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+.main__image-btn {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: none;
+  margin: 2rem 1rem;
+}
+
+.booking {
+  display: flex;
+  max-width: 1280px;
+  margin: 10rem auto 0;
+}
+
+.booking__wrapper {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 10rem;
+}
+
+.booking__options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.booking__text-area {
+  resize: none;
+}
+
+.main_menu-section {
+  background-color: beige;
+  display: flex;
+}
+
+.main_menu-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1280px;
+  margin: 10rem auto 0;
+  gap: 4rem;
+}
+
+.main_menu-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 25rem;
+}
+
+.main_menu-header {
+  font-size: 2rem;
+}
+
+.main_menu-description {
+}
+
+.main_menu_ingredients-header {
+  font-size: 1.5rem;
+}
+
+.main_menu-ingredients {
+}
+
+.main_menu-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.main__about-section {
+  max-width: 1280px;
+  margin: 10rem auto 0;
+}
+
+.main__about-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main__about-header {
+}
+.main__about-info {
+}
+.main__about-info {
+}
+.main__contact-section {
+  max-width: 1280px;
+  margin: 10rem auto 0;
+}
+.main__contact-wrapper {
+}
+.main__contact-header {
+}
+.main__contact-message {
+}
+.main__contact-details {
+}
+.main__contact-address {
+}
+.main__contact-num {
+}
+.main__contact-email {
+}
+.main__contact-form {
+  display: flex;
+  flex-direction: column;
+}
+.main__form-header {
+}
